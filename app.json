@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "one",
-    "slug": "one",
+    "slug": "lms-erp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "restate",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2c598333-3989-4fa2-a1b2-a90c1d837795"
+      }
+    },
+    "owner": "starlord29"
   }
 }
